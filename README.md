@@ -1,2 +1,14 @@
 # 0nhc edited.
 # For ROS Noetic
+
+```sh
+cd catkin_ws/src
+git clone https://github.com/RoboSense-LiDAR/rslidar_sdk.git
+cd rslidar_sdk
+git submodule init
+git submodule update
+sudo apt-get update
+sudo apt-get install -y libyaml-cpp-dev libpcap-dev libprotobuf-dev protobuf-compiler
+cd ..
+catkin_make
+```
