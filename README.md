@@ -3,7 +3,7 @@
 
 ```sh
 cd catkin_ws/src
-git clone https://github.com/RoboSense-LiDAR/rslidar_sdk.git
+git clone --recursive https://github.com/0nhc/rslidar_sdk.git
 cd rslidar_sdk
 git submodule init
 git submodule update
