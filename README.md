@@ -10,5 +10,6 @@ git submodule update
 sudo apt-get update
 sudo apt-get install -y libyaml-cpp-dev libpcap-dev libprotobuf-dev protobuf-compiler
 cd ..
+cd ..
 catkin_make
 ```
